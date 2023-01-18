@@ -337,7 +337,7 @@ i {
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
     label img {
         padding: 3px 26px;
