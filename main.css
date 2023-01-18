@@ -1,0 +1,536 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 130px;
+}
+
+label img {
+    padding: 0 100px;
+    margin: 42px 0px;
+}
+
+nav ul {
+    float: right;
+    margin: 28px 20px 0px 0px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+div .page {
+    width: 50%;
+    height: auto;
+}
+
+.page1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 17px 40px 0px 40px;
+}
+
+.page1-info {
+    width: 55%;
+    height: auto;
+    padding: 83px 0px 0px 54px
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.5;
+    font-size: 2.8em;
+}
+
+.text {
+    color: hsl(0, 0%, 0%);
+    padding: 18px 0px;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.page1-img {
+    width: 50%;
+    padding: 26px 50px 20px 0px;
+
+}
+
+.curve {
+    width: 100%;
+    padding: 140px 0px 0px 0px
+}
+
+#color {
+    background-color: #f8f8fe;
+    margin-top: -30px;
+    padding-bottom: 7%;
+}
+
+.ceo {
+    display: block;
+}
+
+#color .page1-img {
+    padding: 161px 11px 84px 36px;
+    width: 45%;
+}
+
+#color .text {
+    padding: 14px 90px 18px 0px;
+    padding-bottom: 6%;
+}
+
+.page1-info input {
+    width: 53%;
+    height: 10%;
+    padding-left: 10px;
+}
+
+.page1-info button {
+    width: 35%;
+    box-shadow: 1px 1px 7px 0px #00000029;
+    border-color: transparent;
+    border-radius: 4px;
+    height: 10%;
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.page1-info button:hover {
+    background-color: hsl(224, 94%, 69%);
+}
+
+.link-text {
+    font-size: 1.3em;
+    color: hsl(170, 45%, 43%);
+    font-family: 'Raleway', sans-serif;
+    display: inline-flex;
+    text-align: center;
+    width: 33%;
+    border-bottom: solid 2px;
+    margin-bottom: 7%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-text:hover {
+    color: hsla(170, 45%, 43%, 0.634);
+    border-color: hsla(170, 45%, 43%, 0.638);
+}
+
+.link-text img {
+    width: 13%;
+    margin-left: 13px;
+}
+
+.ceo {
+    background-color: white;
+    border-radius: 4%;
+    width: 63%;
+    position: relative;
+    padding-bottom: 5%;
+    box-shadow: 1px 1px 7px 0px #00000029;
+}
+
+.ceo p {
+    font-size: 19px;
+    line-height: 1.4;
+    padding: 65px 45px 10px 45px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.quote {
+    width: 5%;
+    position: absolute;
+    content: "";
+    bottom: 80%;
+    right: 86%;
+}
+
+.avatar {
+    width: 10%;
+    border-radius: 50%;
+    bottom: -14%;
+    right: 81%;
+    margin-left: 9%;
+}
+
+.ceo h4 {
+    width: 39%;
+    font-weight: 700;
+    position: absolute;
+    top: 69%;
+    right: 39%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ceo h4 span {
+    font-size: 12px;
+    color: #00000099;
+    font-weight: bold;
+}
+
+
+.footer-box {
+    padding: 8% 7%;
+    display: flex;
+    position: relative;
+    background-color: hsl(238, 22%, 44%);
+    width: 100%;
+    height: auto;
+
+}
+
+.title-fo {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2.7em;
+}
+
+.left {
+    width: 50%;
+
+}
+
+.left p {
+    color: hsl(240, 75%, 98%);
+    font-family: 'Raleway', sans-serif;
+    padding: 4% 30% 0px 0px;
+    line-height: 1.5;
+}
+
+.right {
+    width: 50%;
+    padding-left: 7%;
+
+}
+
+#email-f {
+    width: 75%;
+    height: 35%;
+    padding-left: 10px;
+    box-shadow: 1px 1px 7px 0px #00000029;
+}
+
+.right button {
+    width: 13%;
+    border-color: transparent;
+    border-radius: 4px;
+    height: 13%;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    content: "";
+    top: 49%;
+    left: 56%;
+    box-shadow: 1px 1px 7px 0px #00000029;
+}
+
+.right button:hover {
+    background-color: hsla(224, 93%, 58%, 0.644);
+}
+
+footer {
+    padding: 8% 7% 0% 7%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: hsl(243, 87%, 12%);
+    width: 100%;
+    height: auto;
+    color: hsl(240, 75%, 98%);
+
+}
+
+footer img {
+    position: absolute;
+    content: "";
+    color: hsl(240, 75%, 98%);
+}
+
+.info {
+    width: 25%;
+    color: hsl(240, 75%, 98%);
+
+}
+
+.links {
+    width: 25%;
+    color: hsl(240, 75%, 98%);
+}
+
+.contact {
+    width: 25%;
+    color: hsl(240, 75%, 98%);
+}
+
+.social {
+    width: 25%;
+    color: hsl(240, 75%, 98%);
+    display: inline;
+}
+
+.logo-f {
+    top: 18%;
+}
+
+ul li {
+    list-style: none;
+    padding: 2% 0%;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.number-email {
+    display: inline;
+}
+
+.info p {
+    margin: 0px 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.social i {
+    margin: 0px 15px;
+
+}
+
+i {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 6px;
+}
+
+.attribution {
+    padding: 1% 36%;
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+
+}
+
+.curve-m {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+
+    label img {
+        padding: 3px 26px;
+        width: 38%;
+        margin: 42px 0px;
+    }
+
+    nav ul li {
+        font-size: 60%;
+        margin: -13px 16px;
+    }
+
+    .page1 {
+        display: grid;
+        grid-template-areas: "img" "text";
+
+    }
+
+    .page1-info {
+        grid-area: text;
+    }
+
+    .page1-img {
+        width: 99%;
+        padding: 3px 4px 8px 1px;
+    }
+
+    .title {
+        font-size: 1.4em;
+    }
+
+    .page1-info {
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 44px 0px 0px 0px;
+    }
+
+    .text {
+        padding: 14px 0px;
+        font-size: 0.9em;
+    }
+
+    .page1-info input {
+        width: 100%;
+        height: 15%;
+        margin-bottom: 5%;
+    }
+
+    .page1-info button {
+        width: 100%;
+        height: 15%;
+        margin: 0;
+    }
+
+    .curve {
+        display: none;
+        background-image: ();
+    }
+
+    .curve-m {
+        display: block;
+        margin-top: 34%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #color .page1-img {
+        padding: 20px 3px 19px 3px;
+        width: 100%;
+    }
+
+    #color .text {
+        padding: 13px 2px 18px 0px;
+        padding-bottom: 6%;
+    }
+
+    .link-text {
+        width: 54%;
+        font-size: 0.9em;
+    }
+
+    .ceo {
+        width: 100%;
+        margin: 14% 0;
+    }
+
+    .ceo p {
+        font-size: 13px;
+        text-align: left;
+        padding: 45px 45px 10px 45px;
+    }
+
+    .quote {
+        bottom: 79%;
+        right: 80%;
+    }
+
+    .ceo h4 {
+        top: 77%;
+        right: 5%;
+        width: 65%;
+        font-size: 11px;
+        text-align: left;
+    }
+
+    .avatar {
+        display: flex;
+        width: 10%;
+        border-radius: 50%;
+        bottom: -14%;
+        right: 81%;
+        margin-left: 16%;
+    }
+
+    .footer-box {
+        display: grid;
+        height: 400px;
+    }
+
+    .left {
+        width: 100%;
+
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .title-fo {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+    .left p {
+        text-align: center;
+        padding: 4% 0% 0px 0px;
+    }
+
+    .right {
+        padding: 0;
+    }
+
+    #email-f {
+        width: 100%;
+        padding: 0;
+    }
+
+    .right button {
+        width: 86%;
+        height: 10%;
+        margin-top: 4%;
+        top: 75%;
+        left: 7%;
+        padding-left: 14px;
+    }
+
+    footer {
+        display: grid;
+        padding-top: 50%;
+        gap: 50px;
+
+
+    }
+
+    ul li {
+        line-height: 1.7;
+    }
+
+    .logo-f {
+        top: 11%;
+        right: 27%;
+    }
+
+    .info p {
+        margin: 5px 40px;
+        width: 182px;
+    }
+
+    .social {
+        width: 73%
+    }
+
+    footer img {
+        margin-top: 11px;
+    }
+
+    .attribution {
+        text-align: center;
+        font-size: 10px;
+        padding: 0px 0px 25px 0px;
+    }
+}
+
+;
+}
