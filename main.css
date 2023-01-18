@@ -347,7 +347,7 @@ i {
 
     nav ul li {
         font-size: 60%;
-        margin: -13px 16px;
+        margin: -13px 5px;
     }
 
     .page1 {
@@ -366,7 +366,7 @@ i {
     }
 
     .title {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .page1-info {
@@ -417,7 +417,7 @@ i {
 
     .link-text {
         width: 57%;
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .ceo {
@@ -483,7 +483,7 @@ i {
 
     #email-f {
         width: 100%;
-        padding: 0;
+        padding-left: 16px;
     }
 
     .right button {
@@ -499,6 +499,7 @@ i {
         display: grid;
         padding-top: 50%;
         gap: 50px;
+        padding-left: 44px;
 
 
     }
